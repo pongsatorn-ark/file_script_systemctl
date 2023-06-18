@@ -1,0 +1,9 @@
+[Unit]
+Description=soc-vpn service
+After=network.target
+[Service]
+ExecStart=/root/gophish
+WorkingDirectory=/root
+Restart=always
+[Install]
+WantedBy=multi-user.target
